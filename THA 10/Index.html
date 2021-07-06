@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Memory Game</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div><h1 class="page-title">Card Game</h1></div>
+ 
+
+
+  <section class="memory-game">
+    <div class="card" data-framework="aurelia">
+      <img class="front-face" src="1.jfif" alt="Aurelia" />
+    </div>
+    <div class="card" data-framework="aurelia">
+      <img class="front-face" src="1.jfif" alt="Aurelia" />
+  
+    </div>
+
+    <div class="card" data-framework="vue">
+      <img class="front-face" src="2.jfif" alt="Vue" />
+
+    </div>
+    <div class="card" data-framework="vue">
+      <img class="front-face" src="2.jfif" alt="Vue" />
+
+    </div>
+
+    <div class="card" data-framework="angular">
+      <img class="front-face" src="3.jfif" alt="Angular" />
+    
+    </div>
+    <div class="card" data-framework="angular">
+      <img class="front-face" src="3.jfif" alt="Angular" />
+    
+    </div>
+
+    <div class="card" data-framework="ember">
+      <img class="front-face" src="4.jfif" alt="Ember" />
+ 
+    </div>
+    <div class="card" data-framework="ember">
+      <img class="front-face" src="4.jfif" alt="Ember" />
+
+    </div>
+
+    <div class="card" data-framework="backbone">
+      <img class="front-face" src="5.jfif" alt="Backbone" />
+      
+    </div>
+    <div class="card" data-framework="backbone">
+      <img class="front-face" src="5.jfif" alt="Backbone" />
+      
+    </div>
+
+    <div class="card" data-framework="react">
+      <img class="front-face" src="6.jfif" alt="React" />
+     
+    </div>
+    <div class="card" data-framework="react">
+      <img class="front-face" src="6.jfif" alt="React" />
+     
+    </div>
+  </section>
+
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script>
+  VanillaTilt.init(document.querySelector(".memory-game")
+  ,{
+		max: 25,
+		speed: 400,
+	});
+  </script>
+
+  <script src="script.js" async></script>
+</body>
+</html>
