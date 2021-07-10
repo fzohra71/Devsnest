@@ -1,0 +1,21 @@
+.page {
+    height: calc(100vh - 55px);
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: black;
+    height: 350px;
+    width: 500px;
+    overflow-y: scroll;
+}
+.container::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 7px;
+}
+.container::-webkit-scrollbar-thumb{
+    background-color: cornsilk;
+    border-radius: 7px;
+}
