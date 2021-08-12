@@ -1,0 +1,19 @@
+.card {
+    border: 1px solid black;
+    margin: 2rem;
+    padding: 1rem;
+    background: rgb(168, 245, 97);
+  }
+  
+  .delete {
+    background-color: rgb(243, 10, 204);
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .edit {
+    background-color: rgb(11, 65, 47);
+    color: white;
+    cursor: pointer;
+  }
